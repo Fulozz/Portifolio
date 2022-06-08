@@ -335,9 +335,9 @@ p {
 
 
 .inner {
-    display: grid;
+    display: flex;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 50px;
 }
 
@@ -400,7 +400,6 @@ p {
 .project {
     width: 256px;
     height: auto;
-
 }
 
 .project__image {
@@ -588,7 +587,6 @@ footer {
     .project {
         position: relative;
         text-align: center;
-        left: 25%;
     }
 
     .project__image {
