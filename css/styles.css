@@ -185,7 +185,8 @@ p {
 }
 
 .navbar {
-    padding: 0 0 4.5rem;
+    background-color: var(--navy);
+    padding-bottom: 0.7rem;
     z-index: auto;
     position: relative;
     text-align: center;

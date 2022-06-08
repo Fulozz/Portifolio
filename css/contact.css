@@ -31,15 +31,16 @@
 
 
 * {
-    padding   : 0px;
+    padding   : 0px !important;
     margin: 0px;
     box-sizing: border-box;
 }
 body {
-    background-color: var(--dark-navy);
+    background-color: var(--navy) !important;
     text-align: center;
     
 }
+
 
 h1 {
     font-family   : 'montserrat';
@@ -47,6 +48,9 @@ h1 {
     font-weight   : 600;
     padding-bottom: 20px;
     color         : white;
+}
+.title{
+    margin-bottom: 3rem;
 }
 
 p{
@@ -60,10 +64,29 @@ p, input,textarea, label{
 }
 
 
+
+nav{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.abacate{
+    justify-content: space-between;
+}
+#logo{
+    width:100px;
+}
+
+
 .container{
     max-width: 100vh;
     margin   : 0 auto;
-    padding-top: 4rem;
 }
 
 form{
