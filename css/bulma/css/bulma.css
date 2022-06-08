@@ -6794,7 +6794,7 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  color: #4a4a4a;
+  color: #fff;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
